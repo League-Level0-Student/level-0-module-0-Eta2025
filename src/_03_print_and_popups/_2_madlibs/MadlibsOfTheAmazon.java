@@ -7,15 +7,15 @@ public class MadlibsOfTheAmazon {
 	public static void main(String[] args) {
 		// Put this sentence in a pop up:
 		String prompt =  "If you find yourself having to cross a piranha-infested river, here's how to do it...";
-		
+		JOptionPane.showMessageDialog(null, prompt);
 		// Get the player to enter an adjective
-
+		String Adjective = JOptionPane.showInputDialog("Enter An Adjective");
 		// Get the player to enter a type of liquid
-
+String Liquid= JOptionPane.showInputDialog("Enter A Liquid");
 		// Get the player to enter a body part
-
+String Body =JOptionPane.showInputDialog("Enter a Body Part");
 		// Get the player to enter a verb
-
+String
 		// Get the player to enter a place
 
 		// The story below has has been written as a group of Strings joined together by + signs.
